@@ -1,0 +1,10 @@
+{
+  "name": "webstudiods-project",
+  "private": true,
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

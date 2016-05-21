@@ -1,0 +1,221 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main-screen-line {		
+		width: 239px;
+		height: 234px;
+		top: 160px;
+		right: 229px;
+	}
+	.main-screen__content {
+		min-height: 480px;
+		background-size: 100% !important;
+	}
+	.headings-wrap {
+		padding-top: 32px;
+	}
+	.main-info-wrap {		
+		padding-top: 57px;
+	}
+	.service-btn {
+		bottom: 10%;
+	}
+}
+
+/* IPad */
+@media only screen and (max-width : 1024px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main-section__top {
+		padding-bottom: 30px;
+		margin-bottom: 0;
+	}
+	.main-screen {
+		padding-bottom: 50px;
+		background: #EFEFEF;
+	}
+	.main-screen-line {    
+		width: 348px;
+		height: 348px;       
+		top: 220px;
+		right: 95px;
+	}
+	.main-info-wrap {
+		padding-top: 0;
+	}
+	.language-btn, .phone-desk {
+		display: none !important;
+	}
+	.language-mobile-wrap, .phones-mobile {
+		display: block;
+	}
+	.language-btn-mobile {
+		float: right;
+	}
+	.phones {
+		min-height: 70px;
+	}
+	.no-padding {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.triggers__item {
+		max-width: 293px;
+		border-top: 2px solid #444;
+		margin: 0 auto 40px;
+	}
+	.service-statement {
+		padding-top: 50px;  
+		padding-left: 0;
+		padding-right: 0;  
+		margin-bottom: 40px;
+	}
+	.service-info-wrap.no-padding {
+		padding-bottom: 25px;
+	}
+	.service-btn {
+		bottom: 0;
+	}
+	.service-sec-wrap {
+		background: #F2F3F5;
+		padding-top: 25px;
+	}
+	.service-sec-info-wrap-1 {
+		margin-right: 0;
+	}
+	.service-sec-info-wrap-2 {
+		margin-left: 0;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* IPhone 6 Plus*/
+@media only screen and (max-width : 736px) {
+	
+}
+
+@media only screen and (max-width : 690px) {
+	.main-screen-line {right: 50px;}
+}
+
+/* IPhone 6 */
+@media only screen and (max-width : 667px) {
+	
+}
+
+@media only screen and (max-width : 584px) {
+	.main-screen-line {display: none;}
+}
+
+/* IPhone 5 */
+@media only screen and (max-width : 568px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.service-btn {		
+		width: 100% !important;
+	}
+}
+
+/* IPhone 6 Plus */
+@media only screen and (max-width : 465px) {
+	.headings-wrap h1 {
+		font-size: 40px;
+	}
+	
+	.big-red {
+		font-size: 40px;		
+	}
+	.headings-wrap p {
+		font-size: 20px;		
+	}	
+}
+
+@media only screen and (max-width : 440px) {
+
+}
+
+/* IPhone 6 Plus */
+@media only screen and (max-width : 414px) {
+	.service-sec-pic {
+		height: 180px;
+	}
+}
+
+/* IPhone 6 */
+@media only screen and (max-width : 375px) {
+	.new-line {
+		display: inline;
+	}
+	.service-sec-pic {
+		height: 167px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.service-sec-pic {
+		height: 147px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

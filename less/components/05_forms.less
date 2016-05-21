@@ -1,0 +1,57 @@
+input, textarea {
+    font-family: @ff !important;
+    font-size: 1.8rem;
+    color: #212121;
+}
+button {
+    font-family: @ff !important;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder       {
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+    font-family: @ff !important;
+    font-size: 1.8rem;
+    color: #212121;
+}
+input::-moz-placeholder, textarea::-moz-placeholder                         {
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+    font-family: @ff !important;
+    font-size: 1.8rem;
+    color: #212121;
+}
+input:-moz-placeholder, textarea:-moz-placeholder                           {
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+    font-family: @ff !important;
+    font-size: 1.8rem;
+    color: #212121;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder                 {
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+    font-family: @ff !important;
+    font-size: 1.8rem;
+    color: #212121;
+}
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder       {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder                         {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder, textarea:focus:-moz-placeholder                           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder                 {opacity: 0; transition: opacity 0.3s ease;}
+
+
+.error-list {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none !important;
+    }
+    li {
+        min-height: auto !important;
+        font-size: 1.2rem !important;
+        font-weight: 400 !important;
+        color: #e42322 !important;
+        margin-bottom: 0.5rem !important;
+        background: none !important;
+    }
+}
